@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Flow Graph
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 939
-  m_MinSize: {x: 579, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 404, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 20
+  controlID: 17
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1492
     height: 939
-  m_MinSize: {x: 303, y: 342}
-  m_MaxSize: {x: 8003, y: 8042}
+  m_MinSize: {x: 303, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 21
+  controlID: 26
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 101
+  controlID: 27
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 402
     height: 560
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 1090
     height: 560
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GraphWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -245,15 +245,15 @@ MonoBehaviour:
     y: 560
     width: 1492
     height: 379
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -273,16 +273,16 @@ MonoBehaviour:
     y: 0
     width: 428
     height: 939
-  m_MinSize: {x: 276, y: 121}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 18}
   - {fileID: 21}
   - {fileID: 20}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Flow Graph
+    m_Text: Graph
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -309,9 +309,8 @@ MonoBehaviour:
     height: 358
   m_ViewDataDictionary: {fileID: 0}
   _data:
-    _json: '{"locked":false,"isActive":true,"referenceData":{"rootObjectInstanceID":23026,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Ludiq.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Bolt.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":0.0,"yMin":633.0,"xMax":1491.0,"yMax":991.0},"saveChangesMessage":"Ludiq.GraphWindow
-      has unsaved changes.","m_MinSize":{"x":100.0,"y":100.0},"m_MaxSize":{"x":4000.0,"y":4000.0},"m_TitleContent":{"m_Text":"Flow
-      Graph","m_Image":null,"m_Tooltip":""},"m_Pos":{"xMin":0.0,"yMin":633.0,"xMax":1491.0,"yMax":991.0},"m_ViewDataDictionary":null}'
+    _json: '{"locked":false,"isActive":false,"referenceData":{"rootObjectInstanceID":55660,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Ludiq.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Bolt.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":0.0,"yMin":633.0,"xMax":1491.0,"yMax":991.0},"saveChangesMessage":"Ludiq.GraphWindow
+      has unsaved changes.","m_MinSize":{"x":100.0,"y":100.0},"m_MaxSize":{"x":4000.0,"y":4000.0},"m_TitleContent":{"m_Text":"Graph","m_Image":null,"m_Tooltip":""},"m_Pos":{"xMin":0.0,"yMin":633.0,"xMax":1491.0,"yMax":991.0},"m_ViewDataDictionary":null}'
     _objectReferences: []
 --- !u!114 &13
 MonoBehaviour:
@@ -341,20 +340,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f0590000
-      m_LastClickedID: 23024
-      m_ExpandedIDs: 7ce2ffffc6ebffff8cefffffc8f0ffff64faffffbcfaffff78400000124e0000
+      m_SelectedIDs: d2430000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 72cffeffa8d0feffded1feff14d3feff4ad4feff90d5feffd0d6feff4ed8feff08dafeff7adbfefff2dcfeff72defeff34e0feff14e2feff48e3feff7ce4fefff6e5feffaee7feffe2e8feff68eafeff2cecfeffa2edfeff18effeff94f0feff08f2feff80f3feff86f5feff48f7feffd0f8feff58fafeff8efbfeffc4fcfefffafdfeffc4fffeffd201ffff4c03ffff7e04fffff205ffffa407ffffd009ffff840bffff6a0dffff220fffffcc10ffffec12ffff7414ffffee15ffff9c17ffff5c19ffff921affffc81bfffffe1cffff381effff581fffff042bffff382cffff6c2dffffa02effffd62fffffae41ffff1243ffff4e44ffff5a48ffff8e49ffff3e4bffffdc5fffff5660ffff5c60ffff3861ffff8862ffffc063ffff4468ffff7269ffff966bffffca6cfffffe6dffff346fffff0c76ffff2478ffff4484ffffc285fffffa8cffff2e8effffb691ffff2493fffff698ffff2a9affffe69bffff1a9dffff4a9fffff5ca1ffffd4a2ffff4ca4ffff82a5ffffc8abffff44aeffffdcafffff12b1ffff48b2ffff7eb3ffffb4b4ffffeab5ffff20b7fffff8bbffff80bdffffb4beffffecbfffffa6c4ffff4cc6ffff80c7ffff28c9ffff7ccbffff7ccdffff94cdffff7ed6ffff6cd8ffffa8dbffff76ddffff56e0ffff8ae1ffffbee2ffff0ae4ffffa8ebffffdcecffff10eeffffc0efffff9af1ffffcef2ffff50f4ffff86f5ffffaaf7ffffa4faffff6c440000da4500005046000082460000ac4700002248000054480000024900000a490000264900006a4b0000ba4b0000c24b0000de4b0000f8520000085300006e5300005254000066540000945500000a56000044560000145a00002c5a0000a65d00004c5e00008a5e0000dc5e0000525f00008c5f0000a85f00003c60000054600000fc610000e6620000fe620000746600005e6700009a6d0000aa6d0000c26d0000146e0000406e00008a6e0000de6e0000126f00001a6f0000626f0000726f00008a6f00009a6f00001e720000267200003e7200009c720000d8740000e0740000f8740000ae760000b6760000ce7600000e780000227800006c7a0000f47a0000547b00006c7b0000ae7f0000d27f000082810000f88100007c820000a0820000fe82000070840000d0840000e88400002a850000428500004e85000072850000aa850000d0850000fe8500005e8a0000668a00007e8a0000b48b0000c48b0000d88b0000fc8b00005a8c0000988e0000ac8e0000908f0000a48f0000ac8f0000f88f00000090000016900000349000006a91000096910000e091000064930000b8930000c0930000ec930000a4960000e2960000fa96000002970000529700005a97000066970000849700006e9c0000c49c0000d09c0000e6a100005ca200008ea20000e4a2000044a300005ca30000a4a40000c8a4000026a5000098a60000eca6000020a700005aa80000baa80000eca800009ca9000012aa000044aa0000faaa000012ab00005aac00007eac0000dcac00004eae0000a2ae0000d6ae000010b0000070b00000a2b00000e0b100000cb2000056b200003eb3000056b3000092b50000b6b5000086b70000e2b700000eb8000048b90000dab90000d2bd0000febd000048be000020bf000030bf000048bf00006cc0000090c00000b4c0000084c20000e0c200000cc3000046c40000aec40000d8c4000016c600008cc60000bec6000014c7000074c700008cc70000dcc7000052c8000084c80000dac800003ac9000052c90000b8c90000dcc900003aca0000b8ca00000ccb000040cb00007acc0000dacc00000ccd00004ace0000c0ce0000f2ce00000ed100006ed1000086d10000ced20000f2d2000050d30000c2d4000016d500004ad5000084d60000e4d6000016d7000054d8000080d80000cad80000a2d90000b2d90000cad900001ada000046da000090da0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Recovery GameObject (1839412069)
-        m_OriginalName: Recovery GameObject (1839412069)
+        m_Name: home/skip
+        m_OriginalName: home/skip
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1642
+        m_UserData: 36504
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -403,9 +402,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.90351593, y: -2.3275769, z: -0.48489305}
+    m_Target: {x: -1.6512403, y: 0.42978, z: 183.1872}
     speed: 2
-    m_Value: {x: -177.03291, y: -107.656654, z: -61.65148}
+    m_Value: {x: -1.6413544, y: 0.296913, z: 175.7064}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -456,9 +455,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.189823
+    m_Target: 4.7383947
     speed: 2
-    m_Value: 626.5147
+    m_Value: 4.534349
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -546,36 +545,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Frases
+    - "Assets/Scenes/Presentaci\xF3n"
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes/Frases
+  - "Assets/Scenes/Presentaci\xF3n"
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\camil\OneDrive\Escritorio\VIP\Drag-and-drop-numbers2
+  m_LastProjectPath: C:\Users\PC MASTER RACE\Documents\GitHub\Drag-and-drop-numbers2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 55.00006}
-    m_SelectedIDs: 6e420000
-    m_LastClickedID: 17006
-    m_ExpandedIDs: 00000000584200005a4200005c4200009042000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 7c430000
+    m_LastClickedID: 17276
+    m_ExpandedIDs: 000000000e43000010430000124300001443000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scenes
-      m_OriginalName: Scenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 16986
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -589,7 +588,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000584200005a4200005c420000
+    m_ExpandedIDs: 000000000e430000104300001243000014430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -614,21 +613,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f0590000
-    m_LastClickedInstanceID: 23024
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 4e43000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: UAP
-      m_OriginalName: UAP
+      m_Name: 1
+      m_OriginalName: 1
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 16748
+      m_UserData: 17352
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -824,7 +823,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
